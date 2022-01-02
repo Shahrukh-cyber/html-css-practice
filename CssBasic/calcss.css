@@ -1,0 +1,130 @@
+/* h1 { */
+/* pixel are absolute unit*/
+/* (%) percent unit are relative unit and value depent on the parent    */
+/* font-size: 60px;
+  background: burlywood;
+  color: brown;
+  width: 200px;
+  height: 400px; */
+/* } */
+/* .outer {
+  width: 300px;
+  height: 300px;
+  background: blue;
+} */
+/* .inner {
+  width: 100%;
+  height: 100%;
+  background: red;
+  
+} */
+
+/* em - RELATIVE , depends on parent
+1em - 16px  default browser style
+1em - base value (16px) * number (1) = 16px
+2em - base value (16px) * number (2) = 32px 
+2em - base value (10px) * number (2) = 20px*/
+
+/* .absolute {
+  font-size: 32px;
+}
+.relative {
+  font-size: 2em;
+} */
+
+/* rem - Relative but depends on Root */
+/* 1rem - 16px  default browser style 
+rem is depent on root if you want to change the size of font you can either change by browser font-size or 
+change to root html element
+
+*/
+/* html {
+  font-size: 5px;
+}
+div {
+  font-size: 5px;
+}
+.absolute {
+  font-size: 32px;
+}
+.relative {
+  font-size: 5em;
+} */
+
+/* VIEWPORT UNITS
+VH -HEIGHT - percent of the screen
+VW   -WIDTH -  percent of the screen
+*/
+
+/* 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background: greenyellow;
+  height: 100vh;
+  width: 100vw;
+}
+.about {
+  background: blue;
+  height: 43vh;
+  width: 54vw;
+} 
+
+*/
+/* 
+default browser styles and google chrome devtools
+
+
+*/
+
+/* h1 {
+  background-color: aquamarine;
+} */
+/* h2 {
+  font-size: 32px;
+  color: red;
+} */
+
+/* 
+CALC()
+perform math operations + - * /
+MIX AND MATCH VALUES
+
+*/
+/* 
+HEIGHT 
+MIX-HEIGHT
+MAX-HEIGHT
+Auto overflow
+*/
+* {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  height: 6rem;
+  color: white;
+  font-size: 3rem;
+}
+.banner {
+  background: red;
+  /* height: calc(100vh - 6rem); */
+  /* height: calc(100vh - 100px); */
+  min-height: calc(100vh - 15rem);
+  max-height: 100vh;
+  /* margin-block-start: ; */
+}
+.example {
+  background: goldenrod;
+  width: 10rem;
+  height: 25rem;
+  overflow: hidden;
+  overflow: scroll;
+}
+/*
+font-size - size of the fonts 
+font-family - describes the font of the element  */

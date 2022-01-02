@@ -1,0 +1,51 @@
+Html content 
+
+tags 
+
+headings
+h1 to h6 
+
+images
+img 
+
+Line break 
+
+<br/>
+Link 
+internal
+
+<a href='about.html'/>
+
+external 
+
+it batter to open external page in another tab so we use target blank
+
+<a href='https://www.facebook.com' target='_blank'/>
+
+
+single page
+# to target same page elements
+<a href='#home'> Back to Top<a/>
+
+sub  sup em(emphesis) strong 
+
+special characters codes 
+&copy for ©
+order list and under order list
+
+ul li
+ol li 
+
+Forms 
+Radio button
+Checkbox
+Select
+TextArea
+input
+div
+span 
+
+DIV AND SPAN USE FOR GROUPING 
+DIV IS USED FOR USED TO GROUP MULTIPLE elements
+SPAN IS USED FOR GROUP INLINE CONTENT
+

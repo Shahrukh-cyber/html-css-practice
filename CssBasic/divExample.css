@@ -1,0 +1,19 @@
+.div1 {
+  color: red;
+  background: rgb(187, 179, 179);
+}
+.div2 {
+  color: green;
+  background: rgb(187, 179, 179);
+}
+.div3 {
+  color: greenyellow;
+  background: black;
+}
+span {
+  color: blue;
+  background: white;
+}
+.text {
+  text-transform: uppercase;
+}

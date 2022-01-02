@@ -1,0 +1,12 @@
+Css stand for Cascading style sheets
+ Previously we use element selector
+ Css Rules 
+ selector id class 
+ declaration block ex:
+ color: green; 
+declaration
+property
+value
+
+ id is #
+ class .

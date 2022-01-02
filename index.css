@@ -1,0 +1,13 @@
+/* list-type type properties */
+/* descendant selector */
+div {
+  margin: 50 auto;
+}
+.navbar {
+  /* text-align: center; */
+  /* background-color: rebeccapurple; */
+  width: 50%;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif    ;
+}

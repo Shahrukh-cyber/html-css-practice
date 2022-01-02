@@ -1,0 +1,21 @@
+/* INHERITANCE */
+/* Children inherit styles from the parent element unless have their own styles    */
+
+body {
+  color: red;
+  background: turquoise;
+  font-family: monospace;
+  line-height: 1.5;
+  font-size: 20px;
+  border: 2px solid black; /*this property is not inherit  */
+}
+.special {
+  color: green;
+  font-size: 30px;
+}
+h2 {
+  color: blue;
+}
+div {
+  color: teal;
+}

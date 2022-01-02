@@ -1,0 +1,39 @@
+/* Last Rule and Specificity and * Universal */
+
+/* id has more specificity than class and last rule would be apply when same class is define */
+/* universal selector has less specificity than class and id .last rule would not be applied */
+/* 
+Color Properties
+background color and background
+ */
+/* color names > 140 */
+/* RGB Red Green Blue 0 - 255 */
+/* RGBA Red Green Blue Opacity */
+/* HEX Values  #RRGGBB */
+/* 123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+Red--->#FF0000
+Green-->#00FF00
+Blue--->#0000FF
+
+*/
+/* p {
+  color: blue;
+} */
+/* 
+more code
+*/
+
+/* Inheritance */
+/* Children inhereted parent css if child does not have it own */
+p {
+  color: red;
+
+  background: rgb(0, 0, 255, 1);
+}
+h1 {
+  color: cornflowerblue;
+  background: darkslategrey;
+}
+* {
+  color: chartreuse;
+}

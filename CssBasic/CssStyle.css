@@ -1,0 +1,16 @@
+.red {
+  color: darkred;
+  font-size: 30px;
+}
+.green {
+  color: darkgreen;
+  font-size: 30px;
+}
+#heading {
+  font-family: cursive;
+}
+.uppercase {
+  text-transform: uppercase;
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+}

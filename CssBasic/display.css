@@ -1,0 +1,53 @@
+/* ELEMENT HAVE IT SET BY DEFAULT 
+BLOCK : Always start a new line and spans full width 
+INLINE : Does not start a new line  and spans full content
+*/
+/* how can we check where the element is block or inline */
+
+/* HORIZONTAL CENTERING 
+
+BLOCK ELEMENT:browser respect width/height and top/bottom margin 
+INLINE ELEMENT :browser does not repect width/height and top/bottom margin  
+
+
+*/
+
+/* .block { */
+/* color: aquamarine;
+  background-color: brown;
+  width: 50%;
+
+  margin: 0 auto; */
+/* display: block; */
+/* display: inline; */
+/* } */
+/* .inline { */
+/* background-color: blueviolet; */
+/* display: inline; */
+/* display: block; */
+/* } */
+
+/* body { */
+/* text-align: center; */
+/* } */
+
+div {
+  background: blue;
+  font-size: 2rem;
+  color: white;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  /* margin-right: 2rem; */
+}
+span {
+  background: blue;
+  font-size: 2rem;
+  color: white;
+  width: 300px;
+  height: 400px;
+  margin-top: 2rem;
+  /* margin-bottom: 2rem; */
+}

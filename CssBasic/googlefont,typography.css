@@ -1,0 +1,20 @@
+/* font-family */
+/* Typograpy
+text-align 
+text-indent 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+h1 {
+  font-family: 'Style Script', cursive;
+}
+.one {
+  font-weight: bolder;
+}
+.two {
+  font-weight: bold;
+}

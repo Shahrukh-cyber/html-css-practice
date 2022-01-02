@@ -1,0 +1,12 @@
+p {
+  color: darkblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.header {
+  color: tomato;
+  font-size: xx-large;
+}
+#footer {
+  color: dodgerblue;
+}

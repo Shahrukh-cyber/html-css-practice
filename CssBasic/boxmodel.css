@@ -1,0 +1,45 @@
+/* CSS BOX MODAL , PADDING MARGIN BORDER */
+
+/* h1,
+p {
+  color: aliceblue;
+} */
+* {
+  margin: 0;
+}
+h1 {
+  /* background: rgb(255, 0, 0); */
+  padding: 30px 20px;
+  /* border: 10px solid rgb(113, 175, 19); */
+}
+p {
+  /* background: blue; */
+  /*top/bottom    left/right */
+  padding: 30px 20px;
+  /* border: 10px outset red; */
+  /* color: wheat; */
+  /* border-style:outset ; */
+  /*top/bottom    left/right */
+  margin: 110px 20px;
+}
+a {
+  background: yellowgreen;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+
+  text-transform: uppercase;
+}
+.one {
+  border: 10px double black;
+  margin-right: 2rem;
+  outline: 2px solid blue;
+  outline-offset: 10px;
+  /* background: red; */
+  /* outline: 2rem groove red; */
+}
+/* .two {
+} */
+.link {
+  margin: 3rem;
+}
